@@ -1,0 +1,9 @@
+[package]
+name = "listener_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+near_event_listener = { path = "../near_event_listener" }
+tokio = {version = "1.41.1", features = ["full", "macros"]}
+near-workspaces = "0.14.1"
